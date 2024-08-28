@@ -66,8 +66,5 @@ SELECT COUNT(DISTINCT cidade) as "Quantidade cidades"
 FROM tbl_peca;
 
 --10 listar a media dos precos de todas as peças, com somente 1 digito após a virgula.
-SELECT ROUND(AVG(preco,1)) as "Media preços"
-FROM tbl_peca;
-
 SELECT ROUND(AVG(preco), 1) as "Media preços"
 FROM tbl_peca;
